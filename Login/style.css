@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fundo {
+    width: 300px;
+    height: 300px;
+    background-image: url('img/fundo.webp');
+    padding: 100px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card {
+    position: absolute;
+    left: 27%;
+    top: 20%;
+    background-color: #ffff5c;
+    width: 400px;
+    height: 400px;
+    border-radius: 4px;
+}
+
+.dados {
+    margin-left: 50px;
+    position: absolute;
+}
+
+.logo {
+
+    height: 70px;
+    margin-left: 120px;
+    border-radius: 40px;
+}
+
+.formato {
+    width: 100%;
+    font-size: 20px;
+}
+
+.esqueceu {
+    right: 10px;
+    text-decoration: none;
+    
+}
+
+.botao {
+    height: 40px;
+    width: 300px;
+    left: 70px;
+    background-color: rgb(103, 153, 236);
+    border-radius: 5px;
+    border-color: black;
+    color: black;
+}
+
+.botao:hover {
+    background-color: rgb(76, 113, 174);
+    color: white;
+}
+
+.cadastro {
+    text-decoration: none;
+}
